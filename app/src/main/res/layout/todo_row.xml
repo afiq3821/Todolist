@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/txtNamaTodo"
+            android:layout_height="42dp"
+            android:text="@string/app_name"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:layout_margin="18dp"/>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
